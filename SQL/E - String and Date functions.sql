@@ -156,5 +156,7 @@ Minute          mi               0              59
 Second          ss               0              59
 Millisecond     ms               0             999
 
-
+-- This will find the first word of a sentence
+SELECT LEFT('Hello World', CHARINDEX(' ', 'Hello World') - 1)
+SELECT CHARINDEX(' ', 'Hello World')
 */
